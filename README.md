@@ -1,8 +1,5 @@
 # Python-project_URL_SHORTENER
 Mini app called Minilink generate short url for given url.
-using python to generate link, 
-python flask to fontend - min website.
-mongoDB cloud for database
 
 Openning Screen
 

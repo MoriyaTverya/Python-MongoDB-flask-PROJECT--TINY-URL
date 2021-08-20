@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    </br></br>
+    <h1 >{% block title %}Minilink{% endblock %}</h1>
+    <p> By Moriya Tverya</p>
+    </br></br>
+    <form method="post">
+    <div class="form-group">
+        <input type="text" name="url"
+               placeholder=" Enter URL to shorten"
+                class="form-control" style="border: none;"
+                value="{{ request.form['url'] }}" autofocus></input>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary" style="background-color: deeppink;  border: none;" >Get Minilik</button>
+        <a class="btn btn-primary" style="background-color: #6394f8;  border: none;" href="{{ url_for('index')}}">Enter new url</a>
+    </div> 
+    </form>
+
+    {% if short_url %}
+    <hr>
+    <a href="{{short_url}}">{{ short_url }}</a>
+    
+    {% endif %}
+{% endblock %}

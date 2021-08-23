@@ -1,6 +1,12 @@
 # Python-project_URL_SHORTENER
 Mini app called Minilink generate short url for given url.
 
+
+Run the file app.py to start the application.
+
+It will start the server and the GUI both.
+
+
 Openning Screen
 
 ![Openning Screen](https://user-images.githubusercontent.com/87769786/130257311-87d82892-1f09-4425-9e7d-6013bbe48494.png)
